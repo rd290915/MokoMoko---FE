@@ -6,9 +6,66 @@
   z-index: 1000;
 }
 .mk-header-inner {
-  height: 90px;
+  height: 95px;
   transition: all .3s ease-in-out;
 }
 .mk-header-inner.bg-white {
   background: white;
+}
+.mk-header-logo a {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+.mk-header-menu-wrapper {
+  margin-top: 20px;
+}
+.mk-header-menu-form {
+  margin-bottom: 20px;
+}
+.mk-header-search {
+  margin-right: 10px;
+}
+.mk-header-search input {
+  height: 22.5px;
+  width: 90px;
+  padding: 0 15px;
+  background: white;
+  border: 1.25px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+.mk-header-inner.bg-white .mk-header-search input {
+  border-color: $btnPrimary;
+}
+.mk-header-search button {
+  height: 25px;
+  background: $btnPrimary;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+.mk-header-sosmed > a {
+  margin-left: 5px;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+.mk-header-inner.bg-white .mk-header-sosmed > a {
+  color: $btnPrimary;
+}
+.mk-header-menu-list > div {
+  padding: 0 20px;
+}
+.mk-header-menu-list > div:last-child {
+  padding-right: 0;
+}
+.mk-header-menu-list > div > a {
+  font-size: 14px;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+.mk-header-inner.bg-white .mk-header-menu-list > div > a {
+  color: $btnPrimary;
 }
