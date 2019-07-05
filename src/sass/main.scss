@@ -4,19 +4,21 @@
  */
 
 // Vendor
-@import "vendor/bootstrap";
-@import 'vendor/normalize';
 
 // Base
 @import 'base/print';
 @import 'base/mixins';
 @import 'base/minireset';
+@import 'fonts/fonts.scss';
 
 // Variables
 @import 'variables';
 
 // Typography
 @import 'typography';
+
+// Global
+@import 'global';
 
 // Components
 @import 'components/**/*.scss';

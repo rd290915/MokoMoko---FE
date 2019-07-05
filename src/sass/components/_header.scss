@@ -1,0 +1,14 @@
+.mk-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.mk-header-inner {
+  height: 90px;
+  transition: all .3s ease-in-out;
+}
+.mk-header-inner.bg-white {
+  background: white;
+}
