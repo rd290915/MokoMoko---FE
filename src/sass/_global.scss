@@ -1,4 +1,10 @@
-.mk-container {
-  padding-right: 85px;
-  padding-left: 85px;
+body {
+  background: #cecece;
+  font-family: $VAGroundedstdBold;
+  line-height: 1.5em;
 }
+.mk-container {
+  padding-right: 8.8%;
+  padding-left: 8.8%;
+}
+.mk-content { min-height: 80vh; }

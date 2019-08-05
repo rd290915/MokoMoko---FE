@@ -17,7 +17,9 @@
   position: absolute;
   top: 20px;
   left: 0;
+  width: 220px;
 }
+.mk-header-logo a img { max-width: 100%; }
 .mk-header-menu-wrapper {
   margin-top: 20px;
 }
@@ -42,6 +44,7 @@
 }
 .mk-header-search button {
   height: 25px;
+  padding: 0 10px;
   background: $btnPrimary;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -49,6 +52,7 @@
 }
 .mk-header-sosmed > a {
   margin-left: 5px;
+  font-size: 18px;
   color: white;
   transition: all .3s ease-in-out;
 }

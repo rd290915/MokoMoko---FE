@@ -1,0 +1,68 @@
+.mk-footer {
+  position: relative;
+  background: url('../../img/images/footer-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.mk-footer::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 255px;
+  width: 100%;
+  background: url('../../img/images/footer-bg-top.png') no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.mk-footer-container {
+  padding-right: 15.5%;
+  padding-left: 15.5%;
+  padding: 0 15.5% 135px 15.5%;
+}
+.mk-footer-list {
+  display: flex;
+  align-items: center;
+}
+.mk-footer-logo {
+  flex: 0 0 24%;
+  max-width: 24%;
+  margin-right: 7.5%;
+}
+.mk-footer-logo img { max-width: 100%; }
+.mk-footer-menu {
+  flex: 0 0 17%;
+  max-width: 17%;
+  margin-right: 30%;
+}
+.mk-footer-menu > a {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #58595b;
+}
+.mk-footer-follow {
+  flex: 0 0 21.5%;
+  max-width: 21.5%;
+}
+.mk-footer-follow-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #2fb7e9;
+}
+.mk-footer-sosmed {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.mk-footer-sosmed > a {
+  display: block;
+  margin-right: 15px;
+  font-size: 22px;
+  color: #2fb7e9;
+}
+.mk-footer-sosmed > a:last-child { color: #fe0000; }
+.mk-footer-copy {
+  font-size: 12px;
+  color: #58595b;
+}

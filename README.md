@@ -1,9 +1,10 @@
 - Developing
   - Layouts:
-    - [X] Header:
-      - [X] Buat sticky scroll, ketika discroll bg menjadi putih
-      - [X] Ubah warna bg menjadi putih kembali
-    - [X] Footer
+    - [o] Header:
+      - [o] Buat Header
+      - [x] Buat sticky scroll, ketika discroll bg menjadi putih
+      - [o] Ubah warna bg menjadi putih kembali
+    - [x] Footer
 
   - Pages:
-    - [X] Homepage
+    - [x] Homepage

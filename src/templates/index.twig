@@ -2,8 +2,12 @@
 {% set head_title = 'Moko Moko - Homepage' %}
 
 {% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
 
-  {# header #}
-  {% include './components/header.twig' %}
+  <!-- content -->
+  <div class="mk-content" id="mk-content"></div>
 
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
 {% endblock %}
