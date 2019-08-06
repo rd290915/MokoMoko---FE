@@ -1,0 +1,19 @@
+.m-home-header {
+  position: relative;
+  min-height: 895px;
+  background: url('../../img/images/home-1-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.m-home-header::before {
+  content: '';
+  position: absolute;
+  bottom: -105px;
+  left: 0;
+  height: 320px;
+  width: 100%;
+  z-index: 1;
+  background: url('../../img/images/home-1-bg-bottom.png') no-repeat;
+  background-size: auto 100%;
+  background-position: top center;
+}

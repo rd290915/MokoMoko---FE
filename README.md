@@ -7,4 +7,6 @@
     - [x] Footer
 
   - Pages:
-    - [x] Homepage
+    - [dev] Homepage:
+      - [dev] Section Header:
+        - [x] Buat slider
