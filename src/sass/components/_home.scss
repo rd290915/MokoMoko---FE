@@ -1,6 +1,6 @@
 .m-home-header {
   position: relative;
-  min-height: 895px;
+  min-height: 765px;
   background: url('../../img/images/home-1-bg.jpg') no-repeat;
   background-size: cover;
   background-position: center top;
@@ -17,3 +17,46 @@
   background-size: auto 100%;
   background-position: top center;
 }
+.m-home-container { padding-top: 180px; }
+.m-home-header-item {
+  position: relative;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 5;
+}
+.m-home-header-title {
+  margin-top: 5px;
+  margin-bottom: 400px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+}
+.m-home-header-triple {
+  top: 205%;
+  left: 37%;
+  width: 27.3%;
+}
+.m-home-header-domba {
+  top: 230%;
+  left: 0;
+  width: 27.3%;
+}
+.m-home-header-produk {
+  top: 835%;
+  left: 29%;
+  width: 55.4%;
+  z-index: 1;
+}
+.m-home-header-baby {
+  top: 200%;
+  right: 0;
+  width: 34.4%;
+}
+.m-home-product {
+  padding-top: 100px;
+  padding-bottom: 160px;
+  background: #06a7e2;
+}
+.m-home-product-triple { margin-bottom: 50px; }

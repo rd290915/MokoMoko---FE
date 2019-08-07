@@ -1,0 +1,11 @@
+.slick-dots {
+  bottom: -125px;
+  z-index: 10;
+}
+.slick-dots li {
+  height: 15px;
+  width: 15px;
+  background: #ffedac;
+  border-radius: 100%;
+}
+.slick-dots li.slick-active { background: white; }
