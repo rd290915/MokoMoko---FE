@@ -1,0 +1,27 @@
+.ef-domba {
+  animation-name: efDomba;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.ef-domba-2 {
+  animation-name: efDomba2;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes efDomba {
+  0% { transform: rotate(15deg); }
+  25% { transform: rotate(-15deg); }
+  50% { transform: rotate(15deg); }
+  75% { transform: rotate(-15deg); }
+  100% { transform: rotate(15deg); }
+}
+@keyframes efDomba2 {
+  0% { transform: translate(10px, 10px) rotate(15deg); }
+  25% { transform: translate(-10px, 10px) rotate(-15deg); }
+  50% { transform: translate(-10px, -10px) rotate(15deg); }
+  75% { transform: translate(-5px, -5px) rotate(-15deg); }
+  100% { transform: translate(10px, 10px) rotate(15deg); }
+}

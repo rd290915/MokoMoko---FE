@@ -1,0 +1,10 @@
+.slide-control {
+  position: absolute;
+  top: 50%;
+  margin-top: -26.5px;
+  z-index: 5;
+}
+.slide-control.slide-prev { left: 40px; }
+.slide-control.slide-next { right: 40px; }
+.m-home-tips-slide .slide-control.slide-prev { left: -15px; }
+.m-home-tips-slide .slide-control.slide-next { right: -15px; }

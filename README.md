@@ -1,12 +1,10 @@
-- Developing
-  - Layouts:
-    - [o] Header:
-      - [o] Buat Header
-      - [x] Buat sticky scroll, ketika discroll bg menjadi putih
-      - [o] Ubah warna bg menjadi putih kembali
-    - [x] Footer
-
+- Developing:
   - Pages:
-    - [dev] Homepage:
-      - [dev] Section Header:
-        - [x] Buat slider
+    - [o] Homepage:
+      - [o] Section Header
+      - [o] Section Product
+      - [o] Section Tips
+      - [o] Section Video
+  
+  - Effects:
+    - [dev] Homepage
