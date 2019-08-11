@@ -1,0 +1,37 @@
+.comp-olshop {
+  background-color: #ffe641;
+  background-image: url('../../img/images/comp-1-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top left;
+  border-radius: 30px;
+}
+.comp-olshop > div {
+  position: relative;
+  padding: 45px 35px;
+}
+.comp-olshop-domba {
+  position: absolute;
+  top: -50px;
+  left: 85px;
+  z-index: 3;
+}
+.comp-olshop-title {
+  padding-left: 120px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+  color: #40bc2d;
+}
+.comp-olshop-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.comp-olshop-brand-item {
+  display: block;
+  flex: 0 0 19.5%;
+  max-width: 19.5%;
+  cursor: pointer;
+}

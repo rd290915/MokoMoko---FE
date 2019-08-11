@@ -8,3 +8,14 @@
 .slide-control.slide-next { right: 40px; }
 .m-home-tips-slide .slide-control.slide-prev { left: -15px; }
 .m-home-tips-slide .slide-control.slide-next { right: -15px; }
+.m-btn {
+  padding: 5px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.m-btn.m-btn-orange {
+  background: #f7c03e;
+  border-bottom: 5px solid #c49530;
+  box-shadow: 0 2.5px 5px #bfbfbf;
+  color: white;
+}

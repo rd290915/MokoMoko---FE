@@ -1,10 +1,16 @@
+
+- Pages:
+  - Homepage: [domain]/home.html
+  - Genki: [domain]/genki.html
+
 - Developing:
   - Pages:
-    - [o] Homepage:
-      - [o] Section Header
-      - [o] Section Product
-      - [o] Section Tips
-      - [o] Section Video
+    - [o] Homepage
+    - [o] Genki
+  
+  - Components:
+    - [o] Shopping Cart
   
   - Effects:
-    - [dev] Homepage
+    - [o] Homepage
+    - [o] Genki

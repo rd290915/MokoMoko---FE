@@ -1,0 +1,62 @@
+.m-genki-header {
+  padding-top: 175px;
+  padding-bottom: 340px;
+  background: url('../../img/images/genki-1-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.m-genki-cloud-1,
+.m-genki-cloud-2,
+.m-genki-cloud-3 {
+  position: absolute;
+}
+.m-genki-cloud-1 {
+  top: 200px;
+  left: 0;
+  width: 8.7%;
+}
+.m-genki-cloud-2 {
+  top: 165px;
+  right: 6%;
+  width: 6.55%;
+}
+.m-genki-cloud-3 {
+  top: 495px;
+  right: 0;
+  width: 8.31%;
+}
+.m-genki-container {
+  width: 57.1%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 3;
+}
+.m-genki-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.m-genki-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 385px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  background: white;
+  border-radius: 30px;
+}
+.m-genki-descr-title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
+.m-genki-descr {
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-bottom: 80px;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+}
+.m-genki-button { text-align: center; }
