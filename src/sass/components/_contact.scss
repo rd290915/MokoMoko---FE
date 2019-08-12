@@ -1,0 +1,67 @@
+.m-contact-header {
+  padding-top: 205px;
+  overflow: hidden;
+  background: url('../../img/images/contact-1-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.m-contact-container {
+  position: relative;
+  width: 69.4%;
+  padding-top: 0;
+  padding-bottom: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.m-contact-descr { width: 40.6%; }
+.m-contact-title {
+  margin-bottom: 35px;
+  font-size: 36px;
+  color: white;
+}
+.m-contact-text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+}
+.m-contact-text:last-child { margin-bottom: 0; }
+.m-contact-domba {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  width: 34.4%;
+}
+.m-contact-form {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 470px;
+  background: url('../../img/images/contact-2-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.m-contact-form-title {
+  margin-bottom: 25px;
+  font-size: 36px;
+  color: #06a7e2;
+}
+.m-contact-form-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.m-contact-form-form > div:nth-child(1),
+.m-contact-form-form > div:nth-child(2) {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+.m-contact-form-form > div.button {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: right;
+}
+.m-contact-form-domba {
+  position: absolute;
+  left: 10%;
+  bottom: 230px;
+  width: 21.5%;
+}
