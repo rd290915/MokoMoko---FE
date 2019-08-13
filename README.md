@@ -1,4 +1,4 @@
-- Pages:
+- List Pages:
   - Homepage: [domain]/home.html
   - Genki: [domain]/genki.html
   - Contact Us: [domain]/contact-us.html
@@ -7,7 +7,7 @@
   - Pages:
     - [o] Homepage
     - [o] Genki
-    - [dev] Contact
+    - [o] Contact
   
   - Components:
     - [o] Shopping Cart
