@@ -1,0 +1,116 @@
+.m-aktif {
+  position: relative;
+  padding-top: 310px;
+  padding-bottom: 30px;
+  background: url('../../img/images/aktifitas-1-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.m-aktif::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  height: 380px;
+  width: 100%;
+  z-index: 1;
+  background: url('../../img/images/aktifitas-1-bg-bottom.png') no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+}
+.m-aktif-container,
+.m-aktif-contest-container {
+  position: relative;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 3;
+}
+.m-aktif-descr {
+  position: relative;
+  width: 53%;
+}
+.m-aktif-title.m-contact-title {
+  margin-bottom: 55px;
+  font-size: 48px;
+}
+.m-aktif-produk img { margin-left: -70px; }
+.m-aktif-butterfly {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 17%;
+}
+.m-aktif-domba {
+  position: absolute;
+  right: 0;
+  bottom: -20%;
+  width: 42.5%;
+}
+.m-aktif-contest {
+  position: relative;
+  padding-top: 165px;
+  padding-bottom: 385px;
+  background: url('../../img/images/aktifitas-2-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.m-aktif-contest-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+.m-aktif-c-l-item {
+  flex: 0 0 31%;
+  max-width: 31%;
+}
+.m-aktif-c-l-photo {
+  height: 205px;
+  background: #fcf9d6;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.m-aktif-c-l-descr {
+  height: 103px;
+  padding: 15px 20px;
+  background: #f0f8fd;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.m-aktif-c-l-d-title {
+  max-height: 40px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  font-size: 20px;
+  color: #6f6f6f;
+}
+.m-aktif-c-l-d-descr {
+  max-height: 48px;
+  overflow: hidden;
+  font-size: 16px;
+  color: #6f6f6f;
+  font-weight: 400;
+}
+.m-aktif-contest-content {
+  padding: 50px 115px;
+  background: #fcf9d6;
+  border-radius: 25px;
+}
+.m-aktif-contest-title {
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 52px;
+  color: #40bc2d;
+}
+.m-aktif-contest-image {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.m-aktif-contest-descr > p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #6f6f6f;
+}
+.m-aktif-contest-descr > p:last-child { margin-bottom: 0; }

@@ -1,5 +1,5 @@
 {% extends 'layouts/default.twig' %}
-{% set head_title = 'Moko Moko - Genki' %}
+{% set head_title = 'Moko Moko - Aktifitas' %}
 
 {% block page %}
   <!-- header -->
@@ -8,7 +8,10 @@
   <!-- content -->
   <div class="mk-content" id="mk-content">
     <!-- section 1 header -->
-    {% include './partials/genki/_1-header.twig' %}
+    {% include './partials/aktifitas/_1-header.twig' %}
+
+    <!-- section 2 contest -->
+    {% include './partials/aktifitas/_2-contest.twig' %}
   </div>
 
   <!-- footer -->
