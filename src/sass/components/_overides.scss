@@ -9,3 +9,7 @@
   border-radius: 100%;
 }
 .slick-dots li.slick-active { background: white; }
+[j-direction="slick-carousel-full"] .slide-control.slide-prev { left: -75px; }
+[j-direction="slick-carousel-full"] .slide-control.slide-next { right: -75px; }
+[j-direction="slick-carousel-full"] .slick-dots li { background: #c7e5f7; }
+[j-direction="slick-carousel-full"] .slick-dots li.slick-active { background: #81d2f0; }

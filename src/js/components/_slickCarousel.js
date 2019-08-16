@@ -8,3 +8,9 @@ $('[j-direction="slick-carousel-arrows"]').slick({
   prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
   nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>'
 });
+$('[j-direction="slick-carousel-full"]').slick({
+  dots: true,
+  arrows: true,
+  prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
+  nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>'
+});
