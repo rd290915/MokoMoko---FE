@@ -4,6 +4,7 @@
   - Contact Us: [domain]/contact-us.html
   - Contest: [domain]/contest.html
   - Tips: [domain]/tips.html
+  - Omba: [domain]/omba.html
 
 - Developing:
   - Pages:
@@ -12,6 +13,7 @@
     - [o] Contact
     - [o] Contest
     - [o] Tips
+    - [o] Omba
   
   - Components:
   
@@ -24,7 +26,7 @@
   - [o] [Aktifitas] Hapus section contest
   - [o] [Aktifitas] Ada dua section Aktifias dan Promo
   - [o] [Home] Header dibuat image, tidak terpisah
-  - [dev] [Compenent] Video dibuat dimasukan dalam video
+  - [x] [Compenent] Video dibuat dimasukan dalam video
   - [x] [Produk] Panduan dibagi 2, untuk descr
   - [x] [TipsDetail] Kata kunci dihapus
   - [x] [TipsDetail] Hapus descr artikel terkait

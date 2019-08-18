@@ -1,0 +1,93 @@
+.m-omba-header {
+  position: relative;
+  padding-top: 285px;
+  padding-bottom: 120px;
+  background: url('../../img/images/omba-1-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.m-omba-container {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 975px;
+}
+.m-omba-content { width: 420px; }
+.m-omba-title {
+  margin-bottom: 85px;
+  font-size: 48px;
+  color: white;
+}
+.m-omba-descr > p {
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #433c2f;
+}
+.m-omba-descr > p:last-child { margin-bottom: 0; }
+.m-genki-cloud-3.m-omba { top: 185px; }
+.m-omba-domba {
+  right: 17%;
+  bottom: -90px;
+  width: 38%;
+}
+.m-omba-halo {
+  top: -90px;
+  right: 50%;
+  width: 14.7%;
+}
+.m-omba-omba {
+  top: -5px;
+  right: 0;
+  width: 21.7%;
+}
+.m-omba-notes {
+  position: relative;
+  padding-bottom: 25px;
+  z-index: 3;
+  background: url('../../img/images/omba-2-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.m-omba-notes-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.m-omba-notes-domba {
+  flex: 0 0 34%;
+  max-width: 34%;
+  margin-right: 35px;
+}
+.m-omba-notes-notes {
+  flex: 0 0 39.9%;
+  max-width: 39.9%;
+  margin-top: -25px;
+}
+.m-omba-step {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 285px;
+  background: #8eddef;
+}
+.m-omba-step-title {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: white;
+}
+.m-omba-step-word {
+  padding: 0;
+  margin: 0 0 60px 0;
+  list-style: none;
+}
+.m-omba-step-word > li {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #008cc3;
+}
+.m-omba-step-domba-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

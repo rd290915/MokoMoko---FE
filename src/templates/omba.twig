@@ -1,0 +1,22 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Moko Moko - Omba' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="mk-content" id="mk-content">
+    <!-- section 1 header -->
+    {% include './partials/omba/_1-header.twig' %}
+
+    <!-- section 2 notes -->
+    {% include './partials/omba/_2-notes.twig' %}
+
+    <!-- section 3 step -->
+    {% include './partials/omba/_3-step.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}
