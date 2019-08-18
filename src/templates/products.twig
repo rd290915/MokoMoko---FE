@@ -1,0 +1,25 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Moko Moko - Products' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="mk-content" id="mk-content">
+    <!-- section 1 header -->
+    {% include './partials/products/_1-header.twig' %}
+
+    <!-- section 2 size -->
+    {% include './partials/products/_2-size.twig' %}
+
+    <!-- section 3 video -->
+    {% include './partials/products/_3-video.twig' %}
+
+    <!-- section 4 descr -->
+    {% include './partials/products/_4-descr.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}

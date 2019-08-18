@@ -6,6 +6,7 @@
   - Tips Mama: [domain]/tips.html
   - Omba: [domain]/omba.html
   - Tips Mama Detail: [domain]/tips-detail.html
+  - Producs: [domain]/products.html
 
 - Developing:
   - Pages:
@@ -16,6 +17,7 @@
     - [o] Tips
     - [o] Omba
     - [o] Tips Detail
+    - [dev] Products
   
   - Components:
   
@@ -33,4 +35,6 @@
   - [o] [TipsDetail] Hapus breadcrumb views count
   - [o] [Omba] Tambahkan button pada list item, warna hijau
   - [x] [Compenent] Video dibuat dimasukan dalam video
-  - [x] [Produk] Panduan dibagi 2, untuk descr
+  - [x] [Product] Panduan dibagi 2, untuk descr
+  - [x] [Layout] [Navbar] Effect header menu belum sama seperti layout
+  - [x] [Product] Buat JS change descr popok
