@@ -1,0 +1,16 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Moko Moko - Tips Mama Detail' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="mk-content" id="mk-content">
+    <!-- section 1 header -->
+    {% include './partials/tips-detail/_1-header.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}
