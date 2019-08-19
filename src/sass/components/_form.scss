@@ -11,7 +11,6 @@
 .m-btn {
   position: relative;
   padding: 5px 40px;
-  margin-bottom: 0;
   border-radius: 30px;
   font-size: 18px;
   transition: all .3s ease-in-out;
@@ -19,10 +18,16 @@
   border-bottom-style: solid;
   cursor: pointer;
 }
+.m-btn.m-btn-large {
+  padding: 10px 50px;
+  font-size: 24px;
+  border-bottom-width: 5px;
+}
 .m-btn:hover {
-  margin-bottom: 5px;
+  margin-top: 5px;
   border-bottom-width: 0;
 }
+.m-btn.m-btn-large:hover { margin-top: 10px; }
 .m-btn.m-btn-orange {
   background: #f7c03e;
   border-bottom-color: #c49530;

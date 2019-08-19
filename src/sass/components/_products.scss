@@ -126,8 +126,81 @@
 .m-prod-descr {
   position: relative;
   padding-top: 75px;
-  padding-bottom: 775px;
+  padding-bottom: 0;
   background: url('../../img/images/product-4-bg.jpg');
   background-size: cover;
   background-position: center bottom;
+}
+.m-prod-descr > .m-product-container { padding-bottom: 775px; }
+.m-prod-descr-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.m-prod-descr-serap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.m-prod-descr-serap > div:first-child {
+  flex: 0 0 29.5%;
+  max-width: 29.5%;
+  margin-right: 4.5%;
+}
+.m-prod-descr-serap > div:last-child {
+  flex: 0 0 39.7%;
+  max-width: 39.7%;
+}
+.m-prod-descr-title {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: white;
+}
+.m-prod-descr-descr > P {
+  font-size: 18px;
+  color: white;
+}
+.m-prod-descr-domba {
+  position: absolute;
+  bottom: 170px;
+  left: 6%;
+  width: 36.5%;
+}
+.m-prod-descr-cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 6%;
+  bottom: 280px;
+  height: 355px;
+  width: 460px;
+  background: url('../../img/images/product-4-cloud.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center top;
+}
+.m-prod-descr-cloud > div {
+  flex: 0 0 60%;
+  max-width: 60%;
+  text-align: center;
+}
+.m-prod-descr-cloud-name {
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #3dcfff;
+}
+.m-prod-descr-cloud-descr > p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #1f86c8;
+}
+.m-prod-descr-cloud-button > a {
+  padding: 5px 30px;
+  background: #3dcfff;
+  border-radius: 30px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
 }
