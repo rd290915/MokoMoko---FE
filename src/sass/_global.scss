@@ -1,9 +1,20 @@
-html { overflow-x: hidden; }
+html {
+  overflow-x: hidden;
+  font-family: $VAGRoundedStdLight;
+}
 body {
-  // background: #cecece;
-  font-family: $VAGroundedstdBold;
+  font-family: $VAGRoundedStdLight;
   line-height: 1;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $VAGroundedstdBold;
+}
+p { font-family: $VAGRoundedStdLight; }
 .mk-container {
   padding-right: 8.8%;
   padding-left: 8.8%;

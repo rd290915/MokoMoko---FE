@@ -2,26 +2,25 @@
   - Homepage: [domain]/home.html
   - Genki: [domain]/genki.html
   - Contact Us: [domain]/contact-us.html
-  - Contest: [domain]/contest.html
+  - Aktifitas: [domain]/aktifitas.html
   - Tips Mama: [domain]/tips.html
   - Omba: [domain]/omba.html
   - Tips Mama Detail: [domain]/tips-detail.html
   - Producs: [domain]/products.html
 
-- Developing:
-  - Pages:
-    - [o] Homepage
-    - [o] Genki
-    - [o] Contact
-    - [o] Contest
-    - [o] Tips
-    - [o] Omba
-    - [o] Tips Detail
-    - [dev] Products
-  
-  - Components:
-  
-  - Effects:
+- Pages:
+  - [o] Homepage
+  - [o] Genki
+  - [o] Contact
+  - [o] Aktifitas
+  - [o] Tips
+  - [o] Omba
+  - [o] Tips Detail
+  - [o] Products
+
+- Components:
+
+- Effects:
   
 - Feedback:
   - [o] [Home] Gambar popok dan descr dipisah
@@ -34,7 +33,9 @@
   - [o] [TipsDetail] Hapus descr artikel terkait
   - [o] [TipsDetail] Hapus breadcrumb views count
   - [o] [Omba] Tambahkan button pada list item, warna hijau
-  - [x] [Compenent] Video dibuat dimasukan dalam video
-  - [x] [Product] Panduan dibagi 2, untuk descr
+  - [o] [Compenent] Video dibuat dimasukan dalam video
   - [x] [Layout] [Navbar] Effect header menu belum sama seperti layout
+  - [dev] [Layout] [Navbar] Menu belum sesuai layout
+
+- Noted:
   - [x] [Product] Buat JS change descr popok

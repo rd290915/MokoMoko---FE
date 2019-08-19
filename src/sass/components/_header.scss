@@ -39,6 +39,7 @@
   border-top-left-radius: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 10px;
+  font-size: 12px;
   transition: all .3s ease-in-out;
 }
 .mk-header-inner.bg-white .mk-header-search input {
@@ -62,16 +63,21 @@
   color: $btnPrimary;
 }
 .mk-header-menu-list > div {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .mk-header-menu-list > div:last-child {
   padding-right: 0;
 }
 .mk-header-menu-list > div > a {
+  display: block;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-family: $VAGroundedstdBold;
   font-size: 14px;
   color: white;
+  text-decoration: none;
   transition: all .3s ease-in-out;
 }
-.mk-header-inner.bg-white .mk-header-menu-list > div > a {
-  color: $btnPrimary;
-}
+.mk-header-menu-list > div > a:hover { background: #06a7e2; }
+.mk-header-inner.bg-white .mk-header-menu-list > div > a { color: $btnPrimary; }
+.mk-header-inner.bg-white .mk-header-menu-list > div > a:hover { color: white; }
