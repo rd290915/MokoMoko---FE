@@ -51,10 +51,8 @@
 .m-aktif-contest {
   position: relative;
   padding-top: 165px;
-  padding-bottom: 385px;
-  background: url('../../img/images/aktifitas-2-bg.jpg') no-repeat;
-  background-size: cover;
-  background-position: center bottom;
+  padding-bottom: 95px;
+  background: #07a7e3;
 }
 .m-aktif-contest-list {
   display: flex;
@@ -100,10 +98,10 @@
 }
 .m-aktif-contest-title {
   margin-bottom: 45px;
-  text-align: center;
   font-size: 36px;
   color: white;
 }
+.m-aktif-promo .m-aktif-contest-title { color: #07a7e3; }
 .m-aktif-contest-image {
   margin-bottom: 50px;
   text-align: center;
@@ -114,3 +112,9 @@
   color: #6f6f6f;
 }
 .m-aktif-contest-descr > p:last-child { margin-bottom: 0; }
+.m-aktif-promo {
+  position: relative;
+  padding-top: 95px;
+  padding-bottom: 230px;
+  background: #a5e3ee;
+}

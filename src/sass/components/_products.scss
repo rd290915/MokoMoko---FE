@@ -113,9 +113,100 @@
 }
 .m-prod-size-title {
   margin-bottom: 35px;
-  text-align: center;
   font-size: 36px;
   color: #008cc3;
+}
+.m-prod-size-list-wrap {
+  position: relative;
+  width: 670px;
+  padding: 10px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+  background: #06a7e2;
+  border-radius: 30px;
+  box-shadow: 0 5px 5px #bbb;
+}
+.m-prod-size-list-table {
+  overflow: hidden;
+  border-radius: 30px;
+}
+.m-prod-size-list-head > div,
+.m-prod-size-list-body > div {
+  display: flex;
+  justify-content: space-between;
+}
+.m-prod-size-list-head > div > div,
+.m-prod-size-list-body > div > div {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  align-items: center;
+  flex: 0 0 50%;
+  max-width: 50%;
+  border: 1px solid #06a7e2;
+  font-family: $VAGroundedstdBold;
+}
+.m-prod-size-list-head > div > div {
+  background: linear-gradient(#41bce9, #06a7e2);
+  font-size: 18px;
+  color: white;
+}
+.m-prod-size-list-body > div > div {
+  background: #c4e4f5;
+  font-size: 24px;
+  color: #008cc3;
+}
+.m-prod-size-list-img-1 {
+  bottom: -35px;
+  left: -12%;
+  width: 20%;
+}
+.m-prod-size-list-img-2 {
+  top: 43px;
+  right: -5%;
+  width: 20%;
+}
+.m-prod-size-list-img-3 {
+  right: -15%;
+  bottom: -8px;
+  width: 23%;
+}
+.m-prod-size-text {
+  padding: 0 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.m-prod-size-text > p {
+  font-size: 18px;
+  color: #008cc3;
+}
+.m-prod-size-title.title-2 { text-align: center; }
+.m-prod-size-tips {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.m-prod-size-tips-wrap {
+  height: 220px;
+  flex: 0 0 220px;
+  max-width: 220px;
+  margin: 0 20px;
+  background: #ffe641;
+  border-radius: 100%;
+  text-align: center;
+}
+.m-prod-size-tips-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-family: $VAGroundedstdBold;
+  font-size: 24px;
+  color: #1a97c9;
+}
+.m-prod-size-tips-descr { padding: 0 20px; }
+.m-prod-size-tips-descr > p {
+  font-size: 16px;
+  color: #005f85;
 }
 .m-prod-video {
   position: relative;
