@@ -17,10 +17,12 @@
 - Feedback:
 
 - Revisi:
-  - [o] [Aktifitas] Halaman Aktifitas dan Promo, Revisi Title jadi align left dan bg promo jadi seperti layout terlampir
-  - [o] [AllPage] Stop efek omba
-  - [o] [Products] Revisi sective panduan popok
   - [x] [Home] Setup Slider ke 2 Top Image
+
+- Responsive:
+  - [o] Header / Navbar
+  - [dev] Footer
+  - [x] Home
 
 - Noted:
   - [x] [Product] Buat JS change descr popok

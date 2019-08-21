@@ -81,3 +81,30 @@
 .mk-header-menu-list > div > a:hover { background: #06a7e2; }
 .mk-header-inner.bg-white .mk-header-menu-list > div > a { color: $btnPrimary; }
 .mk-header-inner.bg-white .mk-header-menu-list > div > a:hover { color: white; }
+.mk-header-navicon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -18.5px;
+  font-size: 36px;
+  color: #06a7e2;
+}
+.m-home-header-shopping {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 175px;
+  left: 0;
+  height: 55px;
+  width: 50px;
+  padding: 0 15px;
+  background: #f8c03e;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 5px #888;
+  text-align: right;
+  font-size: 30px;
+  color: #ca9415;
+}
