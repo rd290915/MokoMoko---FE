@@ -21,8 +21,15 @@
 
 - Responsive:
   - [o] Header / Navbar
-  - [dev] Footer
-  - [x] Home
+  - [o] Footer
+  - [o] Home
+  - [o] Genki
+  - [o] Contact Us
 
 - Noted:
   - [x] [Product] Buat JS change descr popok
+
+- Noted for Mas Waffi:
+  - Component dengan class "m-home-header-shopping" yang berada pada setiap header section atau section pertama dari semua halaman, dihapus, lalu dipindahkan ke bagian Navbar, letakan dibawah div Logo
+  - Pada halaman Home, section id "home-tips", akan ada 2 component list dengan content yang sama, untuk content pada desktop dan mobile, karena kedua component ini berbeda pada desktop dan mobile, jadinya dibuat 2
+  - Cari class "mk-header-navicon" pada Navbar, lalu letakan dibawah Logo
