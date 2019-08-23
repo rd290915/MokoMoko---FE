@@ -73,18 +73,6 @@
   text-align: center;
   font-size: 22px;
 }
-.m-tips-list-item:nth-child(1) .m-tips-list-item-title,
-.m-tips-list-item:nth-child(4) .m-tips-list-item-title {
-  color: #33b142;
-}
-.m-tips-list-item:nth-child(2) .m-tips-list-item-title,
-.m-tips-list-item:nth-child(5) .m-tips-list-item-title {
-  color: #f7c03e;
-}
-.m-tips-list-item:nth-child(3) .m-tips-list-item-title,
-.m-tips-list-item:nth-child(6) .m-tips-list-item-title {
-  color: #ef373f;
-}
 .m-pagination {
   display: flex;
   justify-content: center;
@@ -181,8 +169,6 @@
   margin-bottom: 20px;
   font-size: 18px;
 }
-.m-tips-2-list.m-title-rainbow > div:nth-child(1) .m-tips-2-list-item-title { color: #f7c03e; }
-.m-tips-2-list.m-title-rainbow > div:nth-child(2) .m-tips-2-list-item-title { color: #33b142; }
 .m-tips-2-list-item-descr {
   margin-bottom: 15px;
   font-size: 16px;

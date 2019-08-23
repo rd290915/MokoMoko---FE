@@ -15,6 +15,8 @@
 - Effects:
   
 - Feedback:
+  - [o] [Component] [Artikel] Buat warna text title untuk list
+  - [o] [Component] [Video] Setup ifram dalam image video
 
 - Revisi:
   - [x] [Home] Setup Slider ke 2 Top Image
@@ -25,6 +27,7 @@
   - [o] Home
   - [o] Genki
   - [o] Contact Us
+  - [o] Products
 
 - Noted:
   - [x] [Product] Buat JS change descr popok

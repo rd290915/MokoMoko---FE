@@ -3,6 +3,7 @@
   .mk-header-menu-wrapper {
     width: 95%;
   }
+  .m-product-container { width: 90%; }
   .m-genki-container,
   .m-contact-container {
     width: 90%;
@@ -243,4 +244,82 @@
     bottom: 50px;
     width: 80px;
   }
+  .m-product-header {
+    padding-top: 140px;
+    padding-bottom: 35px;
+  }
+  .m-product-header::before { height: 75px; }
+  .m-product-content {
+    flex-wrap: wrap-reverse;
+  }
+  .m-product-content > div:first-child,
+  .m-product-content > div:last-child,
+  .m-product-item > div:first-child,
+  .m-product-item > div:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .m-product-item > div:first-child { margin-bottom: 15px; }
+  .m-product-content > div:first-child { margin-top: 25px; }
+  .m-product-item { flex-wrap: wrap; }
+  .m-product-descr-wrap {
+    padding: 30px 20px 15px 20px;
+  }
+  .m-prod-size-title,
+  .m-prod-size-title {
+    text-align: center;
+    font-size: 24px;
+  }
+  .m-prod-size-list-wrap { width: 260px; }
+  .m-prod-size-list-head > div > div { text-align: center; }
+  .m-prod-size-list-img-1 { left: -4%; }
+  .m-prod-size-list-img-3 { right: 0%; }
+  .m-prod-size-tips-wrap { margin-bottom: 35px; }
+  .m-prod-size-tips-wrap:last-child { margin-bottom: 35px; }
+  .m-prod-descr-filter,
+  .m-prod-descr-serap {
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .m-prod-descr-serap { margin-bottom: 50px; }
+  .m-prod-descr-filter > div,
+  .m-prod-descr-serap > div:first-child,
+  .m-prod-descr-serap > div:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .m-prod-descr-filter > div:first-child { margin-bottom: 50px; }
+  .m-prod-descr-filter-button > a {
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  .m-prod-descr-filter-button > a:last-child { margin-bottom: 0; }
+  .m-prod-descr-serap-img img { max-width: 50%; }
+  .m-prod-descr-cloud {
+    right: 1%;
+    bottom: 175px;
+    height: 160px;
+    width: 200px;
+  }
+  .m-prod-descr-cloud-name {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .m-prod-descr-cloud-descr > p {
+    margin-bottom: 10px;
+    font-size: 10px
+  }
+  .m-prod-descr-cloud-button > a {
+    padding: 3px 20px;
+    font-size: 10px;
+  }
+  .m-prod-descr-domba {
+    bottom: 70px;
+    left: 1%;
+    width: 105px;
+  }
+  .m-prod-descr > .m-product-container { padding-bottom: 380px; }
 }
