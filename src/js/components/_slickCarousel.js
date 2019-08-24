@@ -5,6 +5,15 @@ if ($('[j-direction="slick-carousel"]').length) {
   });
 }
 
+if ($('[j-direction="slick-carousel-auto"]').length) {
+  $('[j-direction="slick-carousel-auto"]').slick({
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000
+  });
+}
+
 if ($('[j-direction="slick-carousel-arrows"]').length) {
   $('[j-direction="slick-carousel-arrows"]').slick({
     dots: false,

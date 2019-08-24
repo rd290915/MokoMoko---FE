@@ -1,11 +1,10 @@
-html {
+html,
+body {
+  max-width: 100%;
   overflow-x: hidden;
   font-family: $VAGRoundedStdLight;
 }
-body {
-  font-family: $VAGRoundedStdLight;
-  line-height: 1;
-}
+body { line-height: 1; }
 h1,
 h2,
 h3,

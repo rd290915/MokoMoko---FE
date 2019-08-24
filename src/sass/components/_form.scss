@@ -82,4 +82,8 @@ textarea {
   font-size: 18px;
 }
 .m-field select { width: 100%; }
-.m-field.textarea > textarea { height: 365px; }
+.m-field.textarea > textarea {
+  height: 365px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

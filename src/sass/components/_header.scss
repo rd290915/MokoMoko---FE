@@ -88,8 +88,9 @@
   left: 15px;
   margin-top: -18.5px;
   font-size: 36px;
-  color: #06a7e2;
+  color: white;
 }
+.mk-header-inner.bg-white .mk-header-navicon { color: #06a7e2; }
 .m-home-header-shopping {
   display: flex;
   justify-content: flex-end;
@@ -100,6 +101,7 @@
   height: 55px;
   width: 50px;
   padding: 0 15px;
+  z-index: 990;
   background: #f8c03e;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -107,4 +109,30 @@
   text-align: right;
   font-size: 30px;
   color: #ca9415;
+  cursor: pointer;
 }
+.m-home-header-shopping.m-mobile { display: none; }
+.m-home-header-shopping-icons {
+  display: none;
+  position: fixed;
+  top: 228px;
+  left: 29px;
+  width: 50px;
+  z-index: 980;
+  overflow: hidden;
+  background: #ca9415;
+  border-radius: 10px;
+}
+.m-home-header-shopping-icons > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 2.5px;
+  background: #daa938;
+  font-size: 24px;
+  color: #8a6b23;
+  text-decoration: none;
+  cursor: pointer;
+}
+.m-home-header-shopping-icons > a:last-child { margin-bottom: 0; }

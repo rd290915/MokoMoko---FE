@@ -1,9 +1,7 @@
 .m-home-header {
   position: relative;
   min-height: 765px;
-  // background: url('../../img/images/home-1-bg.jpg') no-repeat;
-  background-size: cover;
-  background-position: center top;
+  background: #82d1f2;
   z-index: 5;
 }
 .m-home-header::before {
@@ -184,12 +182,19 @@
 }
 .m-home-video-item-image { position: relative; }
 .m-home-video-item-image > img { width: 100%; }
-.m-home-video-item-image > iframe {
+.m-home-video-item-image-iframe-wrap {
   position: absolute;
   top: 23%;
   left: 7%;
-  height: 65% !important;
-  width: 75% !important;
+  height: 65%;
+  width: 75%;
   z-index: 3;
+  overflow: hidden;
+  border: 1.25px solid #b0dbf3;
+  border-radius: 35px;
+}
+.m-home-video-item-image-iframe-wrap > iframe {
+  height: 100% !important;
+  width: 100% !important;
   border-radius: 35px;
 }

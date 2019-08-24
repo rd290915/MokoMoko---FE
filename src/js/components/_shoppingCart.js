@@ -1,4 +1,4 @@
-var showMenu = {
+var shoppingCart = {
   init: function() {
     this.data()
     this.dom()
@@ -8,23 +8,21 @@ var showMenu = {
     this.action = false
   },
   dom: function() {
-    this.btn = $('[j-direction="show-menu"]')
-    this.place = $('.mk-header-menu-wrapper')
+    this.btn = $('[j-direction="show-shopping"]')
+    this.place = $('.m-home-header-shopping-icons')
   },
   eventList: function() {
-    this.btn.on('click', this.showMenu.bind(this))
+    this.btn.on('click', this.shoppingCart.bind(this))
   },
-  showMenu: function() {
+  shoppingCart: function() {
     this.action = !this.action
 
     if (this.action) {
-      this.btn.html('<i class="fa fa-times"></i>')
       this.place.slideDown(300)
     } else {
-      this.btn.html('<i class="fa fa-navicon"></i>')
       this.place.slideUp(300)
     }
   }
 }
 
-showMenu.init()
+shoppingCart.init()
