@@ -11,7 +11,7 @@
   }
   .m-genki-container,
   .m-contact-container {
-    width: 58%;
+    width: 85%;
     padding-bottom: 115px;
   }
   .mk-header-inner {
@@ -414,6 +414,10 @@
     text-align: center;
   }
   .m-tips-filter > div:last-child { margin-bottom: 0; }
+  .m-tips-filter > div.select {
+    display: flex;
+    justify-content: center;
+  }
   .m-tips-filter > div .m-btn { display: inline-block; }
   .m-tips-list-item {
     flex: 0 0 100%;
