@@ -30,8 +30,9 @@
 - Noted:
   - [x] [Product] Buat JS change descr popok
   - [stack] [TipsDetail]:
-    - Task: Posisi disamakan seperti layout
-    - Stack: batas background biru dan putih itu adalah image dengan size cover jadi ketika diatur content agar pas diperbatasan putih dan biru tidak bisa, karena akan bermasalah pada resolusi dibawah 1366px
+    - [Task]: Posisi disamakan seperti layout
+    - [Stack]: batas background biru dan putih itu adalah image dengan size cover jadi ketika diatur content agar pas diperbatasan putih dan biru tidak bisa, karena akan bermasalah pada resolusi dibawah 1366px
+    - [KemungkinanPemecahanMasalah]: Saya mungkin akan buat menjadi 2 section agar batas nya tetap terjaga
 
 - Catatan untuk Mas Waffi:
   - Untuk component yang mempunyai class "m-home-header-shopping", sekarang mempunyai dua versi, desktop dan mobile
