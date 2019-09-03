@@ -15,12 +15,13 @@
 - Effects:
   
 - Feedback:
+  - [o] [TipsDetail] Foto dibuat bulat
+  - [o] [TipsDetail] Buat text lebih dari 1 baris
+  - [o] [Component] [ShoppingCart] Background dropdown dibuat transparant/no bg color.
+  - [o] [Component] [ShoppingCart] Remove border (bottom)
+  - [o] [Component] [ShoppingCart] Icon akan dalam bentuk image (width x height: 26px x 28px)
 
 - Revisi:
-  - [o] [Responsive] [Genki] Container dibuat lebih panjang
-  - [o] [Responsive] [ContactUs] Container dibuat lebih panjang
-  - [o] [Responsive] [TipsMama] Input select kurang center
-  - [x] [Home] Setup Slider ke 2 Top Image
 
 - Responsive:
 
@@ -28,6 +29,9 @@
   - [stack] [Produk] Hilangkan bugs garis hitam yg ada di tengah2 layar
 - Noted:
   - [x] [Product] Buat JS change descr popok
+  - [stack] [TipsDetail]:
+    - Task: Posisi disamakan seperti layout
+    - Stack: batas background biru dan putih itu adalah image dengan size cover jadi ketika diatur content agar pas diperbatasan putih dan biru tidak bisa, karena akan bermasalah pada resolusi dibawah 1366px
 
 - Catatan untuk Mas Waffi:
   - Untuk component yang mempunyai class "m-home-header-shopping", sekarang mempunyai dua versi, desktop dan mobile

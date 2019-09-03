@@ -120,19 +120,14 @@
   width: 50px;
   z-index: 980;
   overflow: hidden;
-  background: #ca9415;
-  border-radius: 10px;
 }
 .m-home-header-shopping-icons > a {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
-  margin-bottom: 2.5px;
-  background: #daa938;
-  font-size: 24px;
+  font-size: 28px;
   color: #8a6b23;
   text-decoration: none;
   cursor: pointer;
 }
-.m-home-header-shopping-icons > a:last-child { margin-bottom: 0; }
