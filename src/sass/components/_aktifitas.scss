@@ -31,6 +31,10 @@
   position: relative;
   width: 53%;
 }
+.m-aktif-title {
+  position: relative;
+  z-index: 10;
+}
 .m-aktif-title.m-contact-title {
   margin-bottom: 55px;
   font-size: 48px;
@@ -63,6 +67,12 @@
 .m-aktif-c-l-item {
   flex: 0 0 31%;
   max-width: 31%;
+}
+[j-direction] .m-aktif-c-l-item {
+  flex: 0 0 32%;
+  max-width: 32%;
+  margin-right: .5%;
+  margin-left: .5%;
 }
 .m-aktif-c-l-photo {
   height: 205px;
@@ -115,6 +125,6 @@
 .m-aktif-promo {
   position: relative;
   padding-top: 95px;
-  padding-bottom: 230px;
+  padding-bottom: 325px;
   background: #a5e3ee;
 }

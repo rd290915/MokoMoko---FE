@@ -6,6 +6,17 @@
   background-position: top left;
   border-radius: 30px;
 }
+.comp-olshop[j-mobile="olshop"] {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  z-index: 100;
+  border-radius: 0;
+}
 .comp-olshop > div {
   position: relative;
   padding: 45px 35px;
@@ -15,6 +26,9 @@
   top: -50px;
   left: 85px;
   z-index: 3;
+}
+.comp-olshop[j-mobile="olshop"] .comp-olshop-domba {
+  display: none;
 }
 .comp-olshop-title {
   padding-left: 120px;
@@ -33,5 +47,6 @@
   display: block;
   flex: 0 0 19.5%;
   max-width: 19.5%;
+  width: 19.5%;
   cursor: pointer;
 }

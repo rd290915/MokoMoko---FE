@@ -13,3 +13,11 @@
 [j-direction="slick-carousel-full"] .slide-control.slide-next { right: -75px; }
 [j-direction="slick-carousel-full"] .slick-dots li { background: #c7e5f7; }
 [j-direction="slick-carousel-full"] .slick-dots li.slick-active { background: #81d2f0; }
+[j-direction="slider-olshop"] .slide-control.slide-next,
+[j-direction="slider-promo"] .slide-control.slide-next {
+  right: -55px;
+}
+[j-direction="slider-olshop"] .slide-control.slide-prev,
+[j-direction="slider-promo"] .slide-control.slide-prev {
+  left: -55px;
+}
