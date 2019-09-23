@@ -15,12 +15,12 @@
 - Effects:
   
 - Feedback:
+  - [o] [ContactUs] Gambar omba di halaman contact us tolong di stop dlu
+  - [o] [Component] [Testimoni] Untuk testimoni dibuat bulat ya. jangan oval walaupun responsive
+  - [o] [ContactUs] Style "Kategori" warna dan padding nya disamakan seperti "Nama, Email dan No. Telepon
   - [dev] [Component] [OlShop] Setup Styling button sosmed
 
 - Revisi:
-  - [o] [Responsive] [Homepage] [Header] Bottom image masih terlihat putih
-  - [o] [Responsive] [Layout] [Navbar] Background menu jadi putih, close button jadi biru text
-  - [o] [Responsive] [Layout] [Navbar] Ketika shopping cart dilkik muncul shopping component, dengan style seperti menu
 
 - Responsive:
 
@@ -30,4 +30,4 @@
   - [stack] [Product] Buat JS change descr popok
 
 - Catatan untuk Mas Waffi:
-  - Perubahan pada Halaman "Aktifitas" section "Promo", dibawah content "m-aktif-contest-list" tambahkan script pagination
+  - Untuk semua Halaman yang memiliki list dengan element "<div class="m-tips-2-list-item-image">" dirubah formatnya menjadi "<div class="m-tips-2-list-item-image" j-height-width-equal>", cukup tambahkan attribute "j-height-width-equal", tujuannya untuk gambar memiliki height dan width yang sama

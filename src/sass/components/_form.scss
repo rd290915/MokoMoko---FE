@@ -87,3 +87,9 @@ textarea {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+select {
+  color: #75758b;
+}
+option:not(:first-of-type) {
+  color: black;
+}

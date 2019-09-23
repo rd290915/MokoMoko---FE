@@ -152,6 +152,15 @@
   overflow: hidden;
   border-radius: 100%;
 }
+.m-tips-2-list-item-image div {
+  height: 100%;
+  width: 100;
+}
+.m-tips-2-list-item-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .m-tips-2-list.m-vertical .m-tips-2-list-item-image,
 .m-tips-2-list.m-vertical .m-tips-2-list-item-descr-wrap {
   flex: 0 0 100%;
