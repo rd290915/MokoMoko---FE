@@ -15,9 +15,7 @@
 - Effects:
   
 - Feedback:
-  - [o] [ContactUs] Gambar omba di halaman contact us tolong di stop dlu
-  - [o] [Component] [Testimoni] Untuk testimoni dibuat bulat ya. jangan oval walaupun responsive
-  - [o] [ContactUs] Style "Kategori" warna dan padding nya disamakan seperti "Nama, Email dan No. Telepon
+  - [o] [Responsive] [Component] [Olshop] Ganti background image
   - [dev] [Component] [OlShop] Setup Styling button sosmed
 
 - Revisi:
