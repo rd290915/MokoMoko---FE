@@ -72,10 +72,11 @@
   display: block;
   padding: 5px 15px;
   border-radius: 30px;
-  font-family: $VAGroundedstdBold;
-  font-size: 14px;
-  color: white;
+  font-family: VAGroundedstdBold;
+  font-size: 16px;
+  color: #fff;
   text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 .mk-header-menu-list > div > a:hover { background: #06a7e2; }
