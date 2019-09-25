@@ -15,8 +15,7 @@
 - Effects:
   
 - Feedback:
-  - [o] [CSS] Rubah style class ".mk-header-menu-list > div > a" sesuai arahan
-  - [dev] [Component] [OlShop] Setup Styling button sosmed
+  - [x] [Footer] Beri nama pada sosmed
 
 - Revisi:
 
