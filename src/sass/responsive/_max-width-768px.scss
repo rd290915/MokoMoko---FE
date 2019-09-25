@@ -141,12 +141,8 @@
   .mk-footer-menu { margin-bottom: 25px; }
   .mk-footer-menu > a { margin-bottom: 10px; }
   .mk-footer-menu > a:last-child { margin-bottom: 0; }
-  .mk-footer-sosmed { justify-content: center; }
-  .mk-footer-sosmed > a {
-    margin-right: 15px;
-    margin-left: 15px;
-    font-size: 26px;
-  }
+  .mk-footer-sosmed > a { justify-content: center; }
+  .mk-footer-sosmed > a i { font-size: 26px; }
   .m-home-header {
     min-height: 10px;
     padding-top: 70px;
