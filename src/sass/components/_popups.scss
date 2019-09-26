@@ -1,0 +1,59 @@
+.tl-popup {
+  display: none;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  z-index: 1100;
+  overflow-y: auto;
+  background-color: rgba(0,0,0,0.7);
+  transition: $transition_03s;
+  transform: scale(1.5, 1.5);
+  opacity: 0;
+}
+.tl-popup.in { display: flex; }
+.tl-popup[j-popup-place="brochure-form"].in { display: block; }
+.tl-popup.active {
+  display: flex;
+  transform: scale(1, 1);
+  opacity: 1;
+}
+.tl-popup[j-popup-place="brochure-form"].active {
+  display: block;
+  transform: scale(1, 1);
+  opacity: 1;
+}
+.tl-popup-close {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  z-index: 5;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.tl-popup-img-inner {
+  max-width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+.tl-popup-img-show img { max-width: 100%; }
+.tl-popup-brochure-inner {
+  width: 540px;
+  padding: 50px 25px;
+  margin: 50px auto;
+  background-color: #fbfbfb;
+}
+.tl-popup-video-inner {
+  height: 500px;
+  max-width: 80%;
+  width: 80%;
+  margin: 50px auto;
+}
+.tl-popup-video-inner iframe {
+  height: 100% !important;
+  width: 100% !important;
+}

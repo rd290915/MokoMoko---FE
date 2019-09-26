@@ -60,18 +60,22 @@
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  font-family: VAGroundedstdBold;
+  font-family: $VAGRoundedStdLight;
   font-size: 16px;
   color: #58595b;
 }
 .mk-footer-sosmed > a:last-child { margin-bottom: 0; }
 .mk-footer-sosmed > a i {
-  margin-right: 15px;
+  flex: 0 0 25px;
+  max-width: 25px;
+  margin-right: 5px;
   font-size: 22px;
   color: #2fb7e9;
 }
 .mk-footer-sosmed > a:last-child i { color: #fe0000; }
 .mk-footer-copy {
+  font-family: $VAGRoundedStdLight;
   font-size: 12px;
   color: #58595b;
+  font-weight: 400;
 }
