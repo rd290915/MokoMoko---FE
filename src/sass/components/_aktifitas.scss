@@ -79,7 +79,14 @@
   background: #fcf9d6;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+  overflow: hidden;
 }
+.m-aktif-c-l-photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.m-aktif-c-l-photo > div { height: 100%; }
 .m-aktif-c-l-descr {
   height: 103px;
   padding: 15px 20px;

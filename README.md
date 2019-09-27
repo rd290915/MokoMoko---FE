@@ -15,10 +15,6 @@
 - Effects:
   
 - Feedback:
-  - [o] [Layout] [Footer] Font style nya jangan pakai yg bold
-  - [o] [Layout] [Footer] Copyright juga jgn pakai yg bold
-  - [o] [Layout] [Footer] Untuk Nama Account nya di buat rata kiri. dibuat sejajar.
-  - [o] [Aktifitas] [Promo] Setup popup (dummy)
 
 - Revisi:
 
