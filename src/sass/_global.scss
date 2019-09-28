@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: $VAGRoundedStdLight;
 }
-body { line-height: 1; }
+body { line-height: 1.5em; }
 h1,
 h2,
 h3,
@@ -25,6 +25,7 @@ p { font-family: $VAGRoundedStdLight; }
   margin-left: auto;
 }
 .img-width { max-width: 100%; }
+.text-black { color: #607d8b; }
 .text-green { color: #33b142; }
 .text-yellow { color: #f7c03e; }
 .text-red { color: #ef373f; }

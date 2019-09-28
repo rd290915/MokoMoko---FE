@@ -19,30 +19,32 @@
           <input type="number" placeholder="No. Telepon">
         </div>
 
-        <!-- kategori -->
+        <!-- perihal -->
         <div class="m-field">
           <select>
-            <option disabled selected>Kategori</option>
+            <option disabled selected>Perihal</option>
             <option value="1">1</option>
           </select>
+        </div>
+
+        <!-- attachment -->
+        <div class="m-field file">
+          <label for="form.attach">File Attachment</label>
+          <input type="file" id="form.attach" placeholder="File attachment">
         </div>
       </div>
 
       <div>
-        <!-- perihal -->
-        <div class="m-field">
-          <input type="text" placeholder="Perihal">
-        </div>
-
         <!-- descr -->
         <div class="m-field textarea">
           <textarea></textarea>
           <div class="noted">0/100000 (batas kata)</div>
         </div>
-      </div>
 
-      <div class="button">
-        <button type="button" class="m-btn m-btn-blue">Kirim</button>
+        <div class="m-contact-form-button">
+          <div><img src="../../../img/images/captcha.jpg" class="img-width"></div>
+          <div><button type="button" class="m-btn m-btn-blue">Kirim</button></div>
+        </div>
       </div>
     </form>
   </div>

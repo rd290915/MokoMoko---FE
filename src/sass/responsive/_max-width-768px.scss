@@ -177,10 +177,10 @@
     bottom: 0;
   }
   .comp-olshop-domba {
-    top: -30px;
-    left: 7px;
-    width: 100px;
+    display: block;
+    text-align: center;
   }
+  .comp-olshop-domba > img { height: 65px; }
   .comp-olshop-title {
     padding-left: 0;
     margin-top: 10px;
@@ -197,7 +197,6 @@
     margin-left: .5%;
     text-align: center;
   }
-  .comp-olshop-brand-item:last-child { margin-bottom: 0; }
   .m-home-tips {
     padding-top: 55px;
     padding-bottom: 55px;
@@ -343,11 +342,8 @@
     padding: 3px 20px;
     font-size: 10px;
   }
-  .m-prod-descr-domba {
-    bottom: 70px;
-    left: 1%;
-    width: 105px;
-  }
+  .m-prod-descr-domba { bottom: 70px; }
+  .m-prod-descr-domba > img { width: 150px; }
   .m-prod-descr > .m-product-container { padding-bottom: 380px; }
   .m-product-image > img { margin-left: -16%; }
   .comp-olshop > div { padding: 45px 15px; }
@@ -495,5 +491,22 @@
     height: 250px;
     width: 100%;
     background-repeat: no-repeat;
+  }
+  .m-genki-list {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .m-genki-item { margin-bottom: 50px; }
+  .m-contact-form-button {
+    display: block;
+    text-align: center;
+  }
+  [j-direction="slider-olshop"] .slide-control.slide-next,
+  [j-direction="slider-promo"] .slide-control.slide-next {
+    right: -20px;
+  }
+  [j-direction="slider-olshop"] .slide-control.slide-prev,
+  [j-direction="slider-promo"] .slide-control.slide-prev {
+    left: -20px;
   }
 }

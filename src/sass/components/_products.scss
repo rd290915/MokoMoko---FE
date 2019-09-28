@@ -254,18 +254,23 @@
   color: white;
 }
 .m-prod-descr-domba {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  bottom: 170px;
-  left: 6%;
-  width: 36.5%;
+  bottom: 200px;
+  left: 0;
+  width: 100%;
+}
+.m-prod-descr-domba > img {
+  max-width: 371px;
 }
 .m-prod-descr-cloud {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  right: 6%;
-  bottom: 280px;
+  // position: absolute;
+  // left: 42%;
+  // bottom: 280px;
   height: 355px;
   width: 460px;
   background: url('../../img/images/product-4-cloud.png') no-repeat;
@@ -276,6 +281,7 @@
   flex: 0 0 60%;
   max-width: 60%;
   text-align: center;
+  line-height: 1;
 }
 .m-prod-descr-cloud-name {
   margin-bottom: 15px;

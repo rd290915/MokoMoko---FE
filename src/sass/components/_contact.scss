@@ -34,7 +34,7 @@
 .m-contact-form {
   position: relative;
   padding-top: 50px;
-  padding-bottom: 470px;
+  padding-bottom: 555px;
   background: url('../../img/images/contact-2-bg.jpg') no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -51,8 +51,8 @@
 }
 .m-contact-form-form > div:nth-child(1),
 .m-contact-form-form > div:nth-child(2) {
-  flex: 0 0 45%;
-  max-width: 45%;
+  flex: 0 0 48%;
+  max-width: 48%;
 }
 .m-contact-form-form > div.button {
   flex: 0 0 100%;
@@ -64,4 +64,9 @@
   left: 10%;
   bottom: 230px;
   width: 21.5%;
+}
+.m-contact-form-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

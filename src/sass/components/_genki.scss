@@ -60,3 +60,34 @@
   font-weight: 400;
 }
 .m-genki-button { text-align: center; }
+.m-genki-list {
+  display: flex;
+  justify-content: center;
+  padding-right: -30px;
+  padding-left: -30px;
+  margin-bottom: 100px;
+}
+.m-genki-item {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.m-gi-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 265px;
+  margin-bottom: 10px;
+}
+.m-gi-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.m-gi-name {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+.m-button {
+  display: flex;
+  justify-content: center;
+}

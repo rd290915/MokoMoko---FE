@@ -71,19 +71,22 @@
 }
 input,
 select,
-textarea {
+textarea,
+.m-field.file label {
   display: block;
   height: 45px;
-  width: 90%;
-  padding-right: 5%;
-  padding-left: 5%;
+  width: calc(100% - 50px);
+  padding-right: 25px;
+  padding-left: 25px;
   background: white;
   border-radius: 15px;
   font-size: 18px;
 }
 .m-field select { width: 100%; }
 .m-field.textarea > textarea {
-  height: 365px;
+  display: block;
+  height: 211px;
+  width: calc(100% - 50px);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -92,4 +95,20 @@ select {
 }
 option:not(:first-of-type) {
   color: black;
+}
+.m-field.file {
+  position: relative;
+}
+.m-field.file label {
+  display: flex;
+  align-items: center;
+  color: #75758b;
+}
+.m-field.file input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  z-index: 3;
 }

@@ -25,32 +25,34 @@
   position: relative;
   padding: 45px 35px;
 }
-.comp-olshop-domba {
-  position: absolute;
-  top: -50px;
-  left: 85px;
-  z-index: 3;
-}
-.comp-olshop[j-mobile="olshop"] .comp-olshop-domba {
+.comp-olshop[j-mobile="olshop"] .comp-olshop-domba .img-width {
   display: none;
 }
-.comp-olshop-title {
-  padding-left: 120px;
+.comp-olshop-domba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
+}
+.comp-olshop-title {
+  padding-left: 15px;
   text-align: center;
   font-size: 28px;
   color: #40bc2d;
 }
 .comp-olshop-brand {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-right: -10px;
+  padding-left: -10px;
 }
 .comp-olshop-brand-item {
   display: block;
   flex: 0 0 19.5%;
   max-width: 19.5%;
   width: 19.5%;
+  margin: 0 10px;
   cursor: pointer;
 }

@@ -13,8 +13,18 @@ var popupDetail = {
   },
   popupDetail: function(e) {
     var target = e.currentTarget.getAttribute('j-popup-detail-target')
-    var place = $('[j-popup-detail-place="' + target + '"]')
+    var title = e.currentTarget.getAttribute('j-title')
+    var img = e.currentTarget.getAttribute('j-img')
+    var descr = e.currentTarget.getAttribute('j-descr')
 
+    var place = $('[j-popup-detail-place="' + target + '"]')
+    var placeTitle = place.find('[j-descr-place="title"]')
+    var placeImg = place.find('[j-descr-place="img"]')
+    var placeDescr = place.find('[j-descr-place="descr"]')
+
+    placeTitle.html(title)
+    placeImg.attr('src', img)
+    placeDescr.html(descr)
     place.addClass('in')
     setTimeout(function() {
       place.removeClass('in').addClass('active')

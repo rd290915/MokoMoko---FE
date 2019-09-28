@@ -40,10 +40,20 @@ $('[j-direction="slider-olshop"]').slick({
   slidesToScroll: 1
 });
 
-$('[j-direction="slider-promo"]').slick({
-  infinite: true,
-  prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
-  nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>',
-  slidesToShow: 3,
-  slidesToScroll: 1
-});
+if ($(window).width > 768) {
+  $('[j-direction="slider-promo"]').slick({
+    infinite: true,
+    prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
+    nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>',
+    slidesToShow: 3,
+    slidesToScroll: 1
+  });
+} else {
+  $('[j-direction="slider-promo"]').slick({
+    infinite: true,
+    prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
+    nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>',
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+}
