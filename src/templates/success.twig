@@ -1,0 +1,16 @@
+{% extends 'layouts/default.twig' %}
+{% set head_title = 'Moko Moko - Products' %}
+
+{% block page %}
+  <!-- header -->
+  {% include './partials/layouts/_header.twig' %}
+
+  <!-- content -->
+  <div class="mk-content" id="mk-content">
+    <!-- section contact us success -->
+    {% include './partials/success/_contact-us.twig' %}
+  </div>
+
+  <!-- footer -->
+  {% include './partials/layouts/_footer.twig' %}
+{% endblock %}

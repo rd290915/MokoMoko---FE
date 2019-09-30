@@ -40,7 +40,7 @@ $('[j-direction="slider-olshop"]').slick({
   slidesToScroll: 1
 });
 
-if ($(window).width > 768) {
+if ($(window).width() > 768) {
   $('[j-direction="slider-promo"]').slick({
     infinite: true,
     prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',

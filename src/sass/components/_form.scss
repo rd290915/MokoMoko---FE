@@ -108,7 +108,12 @@ option:not(:first-of-type) {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
+  height: 77%;
   width: 60%;
+  padding: 10px 0 0 0;
   z-index: 3;
+}
+.m-tips-filter select {
+  height: 37px;
+  width: 150px;
 }

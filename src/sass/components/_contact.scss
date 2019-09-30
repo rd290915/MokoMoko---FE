@@ -54,6 +54,11 @@
   flex: 0 0 48%;
   max-width: 48%;
 }
+.m-contact-form-form > div.button-wrapper {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 25px;
+}
 .m-contact-form-form > div.button {
   flex: 0 0 100%;
   max-width: 100%;
@@ -67,6 +72,12 @@
 }
 .m-contact-form-button {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding-right: -25px;
+  padding-left: -25px;
+}
+.m-contact-form-button > div {
+  margin-right: 25px;
+  margin-left: 25px;
 }
