@@ -301,3 +301,13 @@
   color: white;
   cursor: pointer;
 }
+.m-prod-descr-filter-button {
+  display: flex;
+  min-height: 50px;
+  padding-right: -10px;
+  padding-left: -10px;
+}
+.m-prod-descr-filter-button > a {
+  margin-right: 10px;
+  margin-left: 10px;
+}

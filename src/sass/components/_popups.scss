@@ -32,7 +32,7 @@
   right: 15px;
   z-index: 5;
   font-size: 20px;
-  color: red;
+  color: #06a7e2;
   cursor: pointer;
 }
 .tl-popup-img-inner {
@@ -40,13 +40,23 @@
   padding: 25px;
   margin: 100px auto;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px #c7c7c7;
 }
-.tl-pi-title { margin-bottom: 25px; }
+.tl-pi-title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #f7c03e;
+  line-height: 1;
+}
 .tl-pi-image {
   margin-bottom: 25px;
   background: #fbfbfb;
   text-align: center;
+}
+.tl-pi-image img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .tl-pi-descr { text-align: center; }
 .tl-popup-success-inner {

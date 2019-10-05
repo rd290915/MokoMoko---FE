@@ -9,6 +9,7 @@
 .m-home-tips-slide .slide-control.slide-prev { left: -15px; }
 .m-home-tips-slide .slide-control.slide-next { right: -15px; }
 .m-btn {
+  display: block;
   position: relative;
   padding: 5px 40px;
   border-radius: 30px;
@@ -19,6 +20,7 @@
   cursor: pointer;
 }
 .m-btn.m-btn-large {
+  height: 29px;
   padding: 10px 50px;
   font-size: 24px;
   border-bottom-width: 5px;
@@ -104,14 +106,33 @@ option:not(:first-of-type) {
   align-items: center;
   color: #75758b;
 }
-.m-field.file input {
+.m-field-file-skin {
   position: absolute;
   top: 0;
   right: 0;
-  height: 77%;
+  height: 100%;
   width: 60%;
-  padding: 10px 0 0 0;
   z-index: 3;
+  background-color: #f1f1f1;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.m-field-file-skin input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.m-field-file-skin-descr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #06a7e2;
 }
 .m-tips-filter select {
   height: 37px;
