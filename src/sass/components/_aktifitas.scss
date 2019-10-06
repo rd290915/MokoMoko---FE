@@ -61,13 +61,16 @@
 }
 .m-aktif-contest-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  padding-right: -20px;
+  padding-left: -20px;
   margin-bottom: 70px;
 }
 .m-aktif-c-l-item {
   flex: 0 0 31%;
   max-width: 31%;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 [j-direction] .m-aktif-c-l-item {
   flex: 0 0 32%;

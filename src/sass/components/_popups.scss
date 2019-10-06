@@ -14,10 +14,10 @@
   transform: scale(1.5, 1.5);
   opacity: 0;
 }
-.tl-popup.in { display: flex; }
+.tl-popup.in { display: block; }
 .tl-popup[j-popup-place="brochure-form"].in { display: block; }
 .tl-popup.active {
-  display: flex;
+  display: block;
   transform: scale(1, 1);
   opacity: 1;
 }

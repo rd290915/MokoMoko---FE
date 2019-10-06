@@ -146,11 +146,7 @@
   text-decoration: underline;
   cursor: pointer;
 }
-.m-home-tips-item-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+.m-home-tips-item-wrapper { display: flex; }
 .m-home-tips-item {
   flex: 0 0 32%;
   max-width: 32%;

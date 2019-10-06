@@ -15,11 +15,8 @@
 - Effects:
   
 - Feedback:
-  - [o] [Popup] Icon close dibuat warna biru
-  - [o] [Popup] Styling mengikutin detail
-  - [o] [Genki] Take out kunjungi
-  - [o] [Component] [Button] Buat effect seperti push
-  - [o] [ContactUs] Buat efek upload image
+  - [x] [Aktifitas] List item dibuat rata kiri
+  - [dev] [Component] [Popup] Height berantakan jika gambar tinggi
 
 - Revisi:
 
@@ -31,9 +28,3 @@
 - Noted:
 
 - Catatan untuk Mas Waffi:
-  - Pada halaman Contact Us, Find "<!-- descr -->",
-  lalu buka Codingan frontend, ikut kodingan frontend dari "<!-- descr -->",
-  karena ada perubahan pada peletakan Button dan Captcha
-  - Lihat pada folder frontend ada file sucess, itu untuk popup success,
-  ambil bagian innernya saja, lalu replace di popup mas waffi pada bagian inner
-  - Update image home-4-video.png, bisa diambil dari folder frontend, img > images
