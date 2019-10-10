@@ -197,12 +197,15 @@
     margin-left: .5%;
     text-align: center;
   }
+  [j-direction] .comp-olshop-brand-item {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  [j-direction] .slick-slide img { display: inline-block; }
   .m-home-tips {
     padding-top: 55px;
     padding-bottom: 55px;
   }
-  .m-home-tips-slide { display: none; }
-  .m-home-tips-slide.m-mobile { display: block; }
   .m-home-tips-title-wrapper { justify-content: center; }
   .m-home-tips-item {
     flex: 0 0 100%;
@@ -327,8 +330,8 @@
   .m-prod-descr-cloud {
     right: 1%;
     bottom: 175px;
-    height: 160px;
-    width: 200px;
+    height: 180px;
+    width: 210px;
   }
   .m-prod-descr-cloud-name {
     margin-bottom: 5px;
@@ -343,7 +346,10 @@
     font-size: 10px;
   }
   .m-prod-descr-domba { bottom: 70px; }
-  .m-prod-descr-domba > img { width: 150px; }
+  .m-prod-descr-domba > img {
+    height: 183.95px;
+    width: 150px;
+  }
   .m-prod-descr > .m-product-container { padding-bottom: 380px; }
   .m-product-image > img { margin-left: -16%; }
   .comp-olshop > div { padding: 45px 15px; }
@@ -498,21 +504,43 @@
     display: block;
     margin-bottom: 50px;
   }
-  .m-genki-item { margin-bottom: 50px; }
+  .m-genki-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
   .m-contact-form-button {
     display: block;
     text-align: center;
   }
+  .m-contact-form-button > div {
+    display: flex;
+    justify-content: center;
+  }
+  .m-contact-form-button > div:first-child { margin-bottom: 15px; }
   [j-direction="slider-olshop"] .slide-control.slide-next,
-  [j-direction="slider-promo"] .slide-control.slide-next {
+  [j-direction="slider-promo"] .slide-control.slide-next,
+  [j-direction="slider-testimoni"] .slide-control.slide-next {
     right: -20px;
+    z-index: 20;
   }
   [j-direction="slider-olshop"] .slide-control.slide-prev,
-  [j-direction="slider-promo"] .slide-control.slide-prev {
+  [j-direction="slider-promo"] .slide-control.slide-prev,
+  [j-direction="slider-testimoni"] .slide-control.slide-prev {
     left: -20px;
+    z-index: 20;
   }
   .tl-popup-img-inner {
     width: 80%;
     margin: 50px auto;
+  }
+  .m-pagination > a.number,
+  .m-pagination > a.prev,
+  .m-pagination > a.next {
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }

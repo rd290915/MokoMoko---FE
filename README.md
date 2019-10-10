@@ -15,8 +15,8 @@
 - Effects:
   
 - Feedback:
-  - [x] [Aktifitas] List item dibuat rata kiri
-  - [dev] [Component] [Popup] Height berantakan jika gambar tinggi
+  - [o] [Aktifitas] List item dibuat rata kiri
+  - [o] [Component] [Popup] Height berantakan jika gambar tinggi
 
 - Revisi:
 
@@ -28,3 +28,4 @@
 - Noted:
 
 - Catatan untuk Mas Waffi:
+  - Ubah Format pada setiap comment "<!-- ubah dari sini -->", pada Halaman "Homepage" dan "Tips"
