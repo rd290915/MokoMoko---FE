@@ -15,8 +15,8 @@
 - Effects:
   
 - Feedback:
-  - [o] [Aktifitas] List item dibuat rata kiri
-  - [o] [Component] [Popup] Height berantakan jika gambar tinggi
+  - [o] [OlShop] Gambar masih belum sama width dan height nya
+  - [dev] [Genki] Padding pada descr lebih di perpendek
 
 - Revisi:
 
