@@ -65,11 +65,15 @@
   margin: 0 1% 80px 1%;
 }
 .m-tips-list-item-image {
-  height: 250px;
   margin-bottom: 30px;
   text-align: center;
 }
-.m-tips-list-item-image > a { display: block; }
+.m-tips-list-item-image > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
 .m-tips-list-item-image img {
   max-height: 100%;
   max-width: 100%;
@@ -151,6 +155,19 @@
   margin-bottom: 50px;
 }
 .m-tips-2-list.m-vertical .m-tips-2-list-item:last-child { margin-bottom: 0; }
+.m-tipsdetail-testi .m-tips-2-list.m-vertical .m-tips-2-list-item {
+  flex: 0 0 calc(100% - 20px);
+  max-width: calc(100% - 20px);
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+}
+.m-tipsdetail-testi .m-tips-2-list.m-vertical .m-tips-2-list-item {
+  // position: fixed;
+  // top: 110px;
+  // right: 11.25%;
+  // z-index: 20;
+}
 .m-tips-2-list-item-image {
   flex: 0 0 40%;
   max-width: 200px;

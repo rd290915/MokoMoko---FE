@@ -15,8 +15,6 @@
 - Effects:
   
 - Feedback:
-  - [o] [OlShop] Gambar masih belum sama width dan height nya
-  - [dev] [Genki] Padding pada descr lebih di perpendek
 
 - Revisi:
 
