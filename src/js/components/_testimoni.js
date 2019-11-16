@@ -17,8 +17,10 @@ var testimoni = {
   },
   eventList: function() {
     if (this.wrap.length) {
-      this.initTrans()
-      this.window.on('scroll', this.testimoni.bind(this))
+      if (this.window.width() > 768) {
+        this.initTrans()
+        this.window.on('scroll', this.testimoni.bind(this))
+      }
     }
   },
   initTrans: function() {

@@ -15,6 +15,9 @@
 - Effects:
   
 - Feedback:
+  - [o] [Homepage] Untuk section tips mama gambarnya masih rapet semua. bisa di kasih jeda tiap div nya biar ga nempel.
+  - [o] [Tips] Padding/margin top nya di naikin biar rapih.
+  - [o] [TipsDetail] [Testimoni] Dibuat fixed ketik scroll
 
 - Revisi:
 
@@ -26,4 +29,4 @@
 - Noted:
 
 - Catatan untuk Mas Waffi:
-  - Ubah Format pada setiap comment "<!-- ubah dari sini -->", pada Halaman "Homepage" dan "Tips"
+  - Update CSS dan JS
