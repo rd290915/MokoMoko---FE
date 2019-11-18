@@ -15,9 +15,12 @@
 - Effects:
   
 - Feedback:
-  - [o] [Homepage] Untuk section tips mama gambarnya masih rapet semua. bisa di kasih jeda tiap div nya biar ga nempel.
-  - [o] [Tips] Padding/margin top nya di naikin biar rapih.
-  - [o] [TipsDetail] [Testimoni] Dibuat fixed ketik scroll
+  - [o] [Tips] Jeda "Mom, waspadai 3 penyebab ruam..." dengan Photo yg ada dibawah nya (padding/margin bottom) di rapihkan.
+  - [o] [Tips] Gambar awan sebelah kanan kepotong. dibuat rapat.
+  - [o] [Product] Gambar awan sebelah kanan kepotong. dibuat rapat.
+  - [o] [Tips] Gambar awan sebelah kanan kepotong. dibuat rapat.
+  - [o] [Genki] Logo Genki! mokomoko (tulisan jepang) di take out.
+  - [o] [ContactUs] gambar awan sebelah kanan kepotong. dibuat rapat.
 
 - Revisi:
 
@@ -30,3 +33,7 @@
 
 - Catatan untuk Mas Waffi:
   - Update CSS dan JS
+  - Pada halaman Genki Japan,
+  Image pada server Backend /Content/images/images/genki-1-title.png,
+  replace dengan gambar berikut http://mokomokohtml.gtionline.site/img/images/genki-1-title.png,
+  Step: Buka Link tersebut > Save Image (nama jgn berubah) > Lalu masukan ke folder image sesuai folder yang sudah backend buat

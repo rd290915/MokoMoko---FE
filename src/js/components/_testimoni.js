@@ -16,12 +16,16 @@ var testimoni = {
     this.olshop = $('.m-tipsdetail-olshop')
   },
   eventList: function() {
-    if (this.wrap.length) {
-      if (this.window.width() > 768) {
-        this.initTrans()
-        this.window.on('scroll', this.testimoni.bind(this))
+    var self = this
+
+    this.window.on('load', function() {
+      if (self.wrap.length) {
+        if (self.window.width() > 768) {
+          self.initTrans()
+          self.window.on('scroll', self.testimoni.bind(self))
+        }
       }
-    }
+    })
   },
   initTrans: function() {
     var testiWidth = this.wrap.width()
@@ -40,26 +44,18 @@ var testimoni = {
         'right': '11.25%',
         'height': this.window.height() - (this.header.height() + 50) + 'px',
         'width': this.width + 'px',
-        'overflow-y': 'scroll'
+        'z-index': '100',
+        'overflow-y': 'hidden'
       })
     }
     
-    if (this.window.scrollTop() < this.gapTop) {
+    if (this.window.scrollTop() < this.gapTop || this.window.scrollTop() >= this.gapTopOlshop) {
       this.wrap.css({
         'position': 'relative',
         'top': 'auto',
         'right': 'auto',
         'height': 'auto',
-        'overflow-y': 'auto'
-      })
-    }
-
-    if (this.window.scrollTop() >= this.gapTopOlshop) {
-      this.wrap.css({
-        'position': 'relative',
-        'top': 'auto',
-        'right': 'auto',
-        'height': 'auto',
+        'z-index': '1',
         'overflow-y': 'auto'
       })
     }

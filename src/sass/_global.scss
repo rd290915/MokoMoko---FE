@@ -25,7 +25,7 @@ p { font-family: $VAGRoundedStdLight; }
   margin-left: auto;
 }
 .img-width { max-width: 100%; }
-.text-black { color: #607d8b; }
-.text-green { color: #33b142; }
-.text-yellow { color: #f7c03e; }
-.text-red { color: #ef373f; }
+.text-black { color: #607d8b !important; }
+.text-green { color: #33b142 !important; }
+.text-yellow { color: #f7c03e !important; }
+.text-red { color: #ef373f !important; }
