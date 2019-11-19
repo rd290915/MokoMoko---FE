@@ -56,7 +56,9 @@ if ($(window).width() > 768) {
     slidesToShow: 2,
     slidesToScroll: 1
   });
-} else {
+}
+
+if ($(window).width() <= 768) {
   $('[j-direction="slider-olshop"]').slick({
     infinite: true,
     prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
@@ -74,6 +76,16 @@ if ($(window).width() > 768) {
   });
 
   $('[j-direction="slider-testimoni"]').slick({
+    infinite: true,
+    prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
+    nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>',
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+}
+
+if ($(window).width() <= 480) {
+  $('[j-direction="slider-olshop"]').slick({
     infinite: true,
     prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
     nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>',

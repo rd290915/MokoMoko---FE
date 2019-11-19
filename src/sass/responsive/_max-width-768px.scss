@@ -197,9 +197,18 @@
     margin-left: .5%;
     text-align: center;
   }
+  .comp-olshop-brand-item img {
+    max-width: 1000px;
+    height: auto;
+    max-width: 100%;
+  }
   [j-direction] .comp-olshop-brand-item {
     justify-content: center;
     margin-bottom: 0;
+  }
+  [j-direction] .comp-olshop-brand-item img {
+    max-width: 170px;
+    height: 66px;
   }
   [j-direction] .slick-slide img { display: inline-block; }
   .m-home-tips {

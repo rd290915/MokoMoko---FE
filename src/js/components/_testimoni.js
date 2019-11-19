@@ -30,7 +30,7 @@ var testimoni = {
   initTrans: function() {
     var testiWidth = this.wrap.width()
     var testiGapTop = this.wrap.offset().top - (this.header.height() + 35)
-    var olshopGapTop = this.olshop.offset().top - (this.window.height() - this.header.height())
+    var olshopGapTop = this.olshop.offset().top - this.window.height()
 
     this.width = testiWidth
     this.gapTop = testiGapTop
@@ -42,10 +42,9 @@ var testimoni = {
         'position': 'fixed',
         'top': this.header.height() + 35 + 'px',
         'right': '11.25%',
-        'height': this.window.height() - (this.header.height() + 50) + 'px',
+        'max-height': this.window.height() - this.header.height() + 'px',
         'width': this.width + 'px',
-        'z-index': '100',
-        'overflow-y': 'hidden'
+        'z-index': '100'
       })
     }
     
@@ -54,12 +53,11 @@ var testimoni = {
         'position': 'relative',
         'top': 'auto',
         'right': 'auto',
-        'height': 'auto',
-        'z-index': '1',
-        'overflow-y': 'auto'
+        'max-height': '10000px',
+        'z-index': '1'
       })
     }
   }
 }
 
-testimoni.init()
+// testimoni.init()
