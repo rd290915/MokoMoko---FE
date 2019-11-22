@@ -15,7 +15,9 @@
 - Effects:
   
 - Feedback:
-  - [x] [Component] [OlShop] Fixed tampilan mobile, dan OlShop tanpa slider
+  - [o] [Responsive] [Homepage] Fix warna background biru
+  - [o] [Responsive] [Aktifitas] Halaman Aktivitas, untuk omba nya diturunin kebawh aja atau kesamping, yg pntg tidak menutupi packaging nya
+  - [o] [Responsive] [Product] Untuk awan nya dibesarkan lagi, agar tidak mepet banget sama text nya, kalau gambar omba harus dikecilin, dikecilin saja, tapi jgn terlalu kecil gambar omba nya
 
 - Revisi:
 

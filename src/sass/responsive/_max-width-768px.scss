@@ -148,11 +148,11 @@
     padding-top: 70px;
   }
   .m-home-header::before {
-    bottom: -51px;
+    bottom: -35px;
     height: 85px;
     background-size: auto 100%;
   }
-  .slick-dots { bottom: -25px; }
+  .slick-dots { bottom: -15px; }
   .m-home-product {
     padding-top: 55px;
     padding-bottom: 55px;
@@ -338,9 +338,10 @@
   .m-prod-descr-serap-img img { max-width: 50%; }
   .m-prod-descr-cloud {
     right: 1%;
-    bottom: 175px;
+    // bottom: 175px;
     height: 180px;
     width: 210px;
+    margin-top: -40px;
   }
   .m-prod-descr-cloud-name {
     margin-bottom: 5px;
@@ -354,10 +355,14 @@
     padding: 3px 20px;
     font-size: 10px;
   }
-  .m-prod-descr-domba { bottom: 70px; }
+  .m-prod-descr-domba {
+    bottom: 70px;
+    width: 110%;
+    margin-left: -5%;
+  }
   .m-prod-descr-domba > img {
-    height: 183.95px;
-    width: 150px;
+    height: 150px;
+    width: 122.3px;
   }
   .m-prod-descr > .m-product-container { padding-bottom: 380px; }
   .m-product-image > img { margin-left: -16%; }
@@ -380,7 +385,10 @@
     margin-bottom: 30px;
     font-size: 26px;
   }
-  .m-aktif-produk img { margin-left: -17%; }
+  .m-aktif-produk img {
+    max-width: 75%;
+    margin-left: -35%;
+  }
   .m-aktif-butterfly {
     top: 40px;
     width: 45px;
@@ -551,5 +559,11 @@
   .m-pagination > a.next {
     margin-right: 5px;
     margin-left: 5px;
+  }
+  #home-header .slick-dotted.slick-slider { margin-bottom: 0; }
+  .m-aktif-domba {
+    right: -5%;
+    bottom: 1%;
+    width: 30%;
   }
 }
