@@ -46,7 +46,10 @@ if ($(window).width() > 768) {
     prevArrow: '<a class="slide-control slide-prev"><img src="../../img/icons/chevron-left.png"></a>',
     nextArrow: '<a class="slide-control slide-next"><img src="../../img/icons/chevron-right.png"></a>',
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    swile: function() {
+      console.log('hit')
+    }
   });
 
   $('[j-direction="slider-testimoni"]').slick({

@@ -24,8 +24,7 @@
 - Noted:
 
 - Feedback:
-  - [x] [Navbar] Ini tolong di naikin 3px lg ya
-  - [x] [CSS] Change style .m-tipsdetail-title
+  - [o] [AktifitasPromo] Thumb image nya dibuat kotak (Width sama Height nya disamain)
 
 - Catatan untuk Mas Waffi:
-  - Update CSS
+  - Update JS
