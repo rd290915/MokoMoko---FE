@@ -24,7 +24,11 @@
 - Noted:
 
 - Feedback:
-  - [o] [AktifitasPromo] Thumb image nya dibuat kotak (Width sama Height nya disamain)
+
+- Maintenence:
+  - [x] [AllPage] Setup Breadcrumb
+  - [x] Product:
+    - [x] Using h1 tag for title
+    - [x] Using p tag for explain
 
 - Catatan untuk Mas Waffi:
-  - Update JS
