@@ -242,13 +242,13 @@
   .m-home-video-item:last-child { margin-bottom: 0; }
   .m-home-video-item-label { font-size: 16px; }
   .m-genki-header {
-    padding-top: 110px;
+    padding-top: 150px;
     padding-bottom: 115px;
   }
   .m-genki-thumb { height: 210px; }
   .m-genki-descr-title { font-size: 20px; }
   .m-genki-descr { font-size: 14px; }
-  .m-contact-header { padding-top: 110px; }
+  .m-contact-header { padding-top: 150px; }
   .m-contact-descr {
     width: 100%;
     text-align: center;
@@ -372,7 +372,7 @@
     font-size: 16px;
     border-bottom-width: 5px;
   }
-  .m-aktif { padding-top: 105px; }
+  .m-aktif { padding-top: 150px; }
   .m-aktif::before {
     bottom: -28px;
     height: 92px;
@@ -415,7 +415,7 @@
   }
   .m-aktif-c-l-item:last-child { margin-bottom: 0; }
   .m-tips-header {
-    padding-top: 105px;
+    padding-top: 150px;
     padding-bottom: 105px;
   }
   .m-tips-header::before {
@@ -484,7 +484,7 @@
     margin-right: 10px;
   }
   .m-tipsdetail-header {
-    padding-top: 105px;
+    padding-top: 150px;
     padding-bottom: 300px;
   }
   .m-tipsdetail-content > div:first-child,
@@ -572,4 +572,7 @@
   }
   .m-product-title { font-size: 28px; }
   .m-product-explain { font-size: 18px; }
+  .mk-breadcrumb {
+    top: 95px;
+  }
 }

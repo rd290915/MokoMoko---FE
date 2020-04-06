@@ -31,10 +31,13 @@
 
 - Maintenence:
   - [o] [AllPage] Setup Breadcrumb
-  - [o] Setup Product
+  - [o] Setup Product:
+    - [o] Setup Title with tag h1
+    - [o] Setup Explain with tag p
 
 - Catatan untuk Mas Waffi:
   - Update CSS
+  - Find "<div class="mk-breadcrumb">", Lalu tambahkan pada setiap halaman diatas content "<div class="mk-content" id="mk-content">"
   - Product:
     - Find "<h2 class="m-product-item-descr-title">", lalu rubah h2 menjadi h1
     - Find "<div class="m-product-container">", lalu letakan content "<div class="m-product-title-wrap">" diatas content "<div class="m-product-content">"
