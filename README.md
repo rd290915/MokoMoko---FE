@@ -30,10 +30,8 @@
 - Feedback:
 
 - Maintenence:
-  - [dev] [AllPage] Setup Breadcrumb
-  - [o] Product:
-    - [o] Using h1 tag for title
-    - [o] Using p tag for explain
+  - [o] [AllPage] Setup Breadcrumb
+  - [o] Setup Product
 
 - Catatan untuk Mas Waffi:
   - Update CSS
