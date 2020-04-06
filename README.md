@@ -1,3 +1,7 @@
+- Scripts:
+  - Developing: gulp
+  - Build: gulp build
+
 - List Pages:
   - Homepage: [domain]/home.html
   - Genki: [domain]/genki.html
@@ -26,9 +30,13 @@
 - Feedback:
 
 - Maintenence:
-  - [x] [AllPage] Setup Breadcrumb
-  - [x] Product:
-    - [x] Using h1 tag for title
-    - [x] Using p tag for explain
+  - [dev] [AllPage] Setup Breadcrumb
+  - [o] Product:
+    - [o] Using h1 tag for title
+    - [o] Using p tag for explain
 
 - Catatan untuk Mas Waffi:
+  - Update CSS
+  - Product:
+    - Find "<h2 class="m-product-item-descr-title">", lalu rubah h2 menjadi h1
+    - Find "<div class="m-product-container">", lalu letakan content "<div class="m-product-title-wrap">" diatas content "<div class="m-product-content">"

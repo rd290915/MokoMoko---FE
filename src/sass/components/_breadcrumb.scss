@@ -1,0 +1,45 @@
+.mk-breadcrumb {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  padding: 5px 20px;
+  z-index: 990;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.mk-breadcrumb-list {
+  display: flex;
+  list-style: none;
+}
+.mk-breadcrumb-list > li {
+  display: block;
+  position: relative;
+  padding: 0 20px 0 0;
+  margin: 0 10px 0 0;
+}
+.mk-breadcrumb-list > li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+.mk-breadcrumb-list > li::before {
+  content: '>';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  height: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: $btnPrimary;
+  line-height: 0;
+}
+.mk-breadcrumb-list > li:last-child::before { display: none; }
+.mk-breadcrumb-list > li > a {
+  font-size: 16px;
+  color: $btnPrimary;
+  font-weight: bold;
+  cursor: pointer;
+}
