@@ -30,8 +30,6 @@
 - Feedback:
 
 - Maintenence:
-  - [o] Change styling breadcrumb
-  - [o] [AllPages] Setup margin top page header
 
 - Catatan untuk Mas Waffi:
   - Update CSS
